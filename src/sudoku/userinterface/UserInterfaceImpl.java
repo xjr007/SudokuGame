@@ -20,7 +20,6 @@ import javafx.stage.Stage;
 import sudoku.constants.GameState;
 import sudoku.problemdomain.Coordinates;
 import sudoku.problemdomain.SudokuGame;
-import sudoku.userinterface.IUserInterfaceContract.EventListener;
 
 public class UserInterfaceImpl implements IUserInterfaceContract.View,
 	EventHandler<KeyEvent> {
@@ -37,8 +36,8 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
 		private static final double BOARD_X_AND_Y = 576;
 		private static final double BOARD_PAD = 50;
 	
-		private static final Color WINDOW_BACKGROUND_COLOUR = Color.rgb(i:0, i1:150, i2:136);
-		private static final Color BOARD_BACKGROUND_COLOUR = Color.rgb(i:224, i1:242, i2:241);
+		private static final Color WINDOW_BACKGROUND_COLOUR = Color.rgb(0, 150, 136);
+		private static final Color BOARD_BACKGROUND_COLOUR = Color.rgb(224, 242, 241);
 		private static final String SUDOKU = "Sudoku";
 
 		
