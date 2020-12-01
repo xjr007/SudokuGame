@@ -2,10 +2,11 @@ package sudoku.problemdomain;
 
 import java.io.Serializable;
 
+import sudoku.computationlogic.SudokuUtilities;
 import sudoku.constants.GameState;
 
+@SuppressWarnings("serial")
 public class SudokuGame implements Serializable {
-
 	private final GameState gameState;
 	private final int[][] gridState;
 	

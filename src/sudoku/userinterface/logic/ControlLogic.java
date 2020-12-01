@@ -7,6 +7,7 @@ import sudoku.constants.Messages;
 import sudoku.problemdomain.IStorage;
 import sudoku.problemdomain.SudokuGame;
 import sudoku.userinterface.IUserInterfaceContract;
+import sudoku.computationlogic.GameLogic;;
 
 public class ControlLogic implements IUserInterfaceContract.EventListener{
 	private IStorage storage;
